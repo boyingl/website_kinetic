@@ -4,23 +4,30 @@
     <title> KINETIC IMAGING </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="C:\Users\User\Desktop\ki\" target="_blank">
     <link rel="stylesheet" type="text/css" href="w3.css" />
     <link rel='icon' type='image.png' href="icon.png" />
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 
   </head>
 
-  <body >
+
     <!--responsive navbar-->
 
 
 <body>
 
-<div w3-include-html="footer.html"></div> 
 
 <script>
-w3IncludeHTML();
+window.onload = function() {
+    if (window.jQuery) {  
+        // jQuery is loaded  
+        alert("Yeah!");
+    } else {
+        // jQuery is not loaded
+        alert("Doesn't Work");
+    }
+}
 </script>
        
     
