@@ -6,28 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="w3.css" />
     <link rel='icon' type='image.png' href="icon.png" />
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("#div1").load("footer.html ");
-    });
-});
-</script>>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      </head>
+<body>
+
+<div ng-app="myApp" ng-controller="customersCtrl">
+  <div ng-include="'footer.htm'"></div>
+</div>
 
 
-  </head>
+
 
 
     <!--responsive navbar-->
 
 
-<body>
 
 
-
-<div id="div1"></div>
-  <button>Get External Content</button>
 
 
 </body>
