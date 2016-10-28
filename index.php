@@ -5,7 +5,7 @@
 
 <div ng-include="'footer.html'"></div>
     
-    <?php echo "hello world" ?>
+    <?php echo "hello world"; ?>
 
 </body>
 </html>
